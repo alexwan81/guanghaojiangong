@@ -1,21 +1,17 @@
 import INDEX from '../pages/index.jsx';
-import PROJECTS from '../pages/projects.jsx';
-import CONTACT from '../pages/contact.jsx';
-import ABOUT from '../pages/about.jsx';
-import PROJECT_DETAIL from '../pages/project-detail.jsx';
+import PRACTICE from '../pages/practice.jsx';
+import QUESTIONS from '../pages/questions.jsx';
+import PROFILE from '../pages/profile.jsx';
 export const routers = [{
   id: "index",
   component: INDEX
 }, {
-  id: "projects",
-  component: PROJECTS
+  id: "practice",
+  component: PRACTICE
 }, {
-  id: "contact",
-  component: CONTACT
+  id: "questions",
+  component: QUESTIONS
 }, {
-  id: "about",
-  component: ABOUT
-}, {
-  id: "project-detail",
-  component: PROJECT_DETAIL
+  id: "profile",
+  component: PROFILE
 }]
